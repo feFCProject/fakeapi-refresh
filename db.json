@@ -10,5 +10,79 @@
   ],
   "profile": {
     "name": "fctest"
+  },
+  "classDetail": {
+    className: "Entrepreneurship 101 Online Camp",
+  startPrice: "50.00",
+  image: "/images/dummy1.png",
+  pricings: [
+    {
+      price: "50.00",
+      name: "Standard Package",
+      validity: "Valid from 21 Dec 2022 (Wed) to 30 Jan 2023 (Mon)",
+      amount: 1,
+      id: 1,
+    },
+    {
+      price: "65.00",
+      name: "Individual Package",
+      validity: "",
+      amount: 2,
+      id: 2,
+    },
+  ],
+  business: {
+    id: 1,
+    name: "Kidspreneurship",
+  },
+  classSchedules: [
+    {
+      time: "10:00 AM - 12:00 PM",
+      date: "15 Mar 2023 (Wed)",
+      availability: true,
+      sessions: [
+        {
+          name: "Session 1",
+          date: "15 Mar 2023 (Wed)",
+          time: "10:00 AM - 12:00 PM",
+        },
+        {
+          name: "Session 2",
+          date: "16 Mar 2023 (Wed)",
+          time: "10:00 AM - 12:00 PM",
+        },
+        {
+          name: "Session 3",
+          date: "17 Mar 2023 (Wed)",
+          time: "10:00 AM - 12:00 PM",
+        },
+      ],
+    },
+  ],
+  classReviews: [
+    {
+      review:
+        "Great education book series. Good to keep my book worm interested",
+      id: 1,
+      reviewer: "Jamie Tan",
+      date: "20 Apr 2020",
+      star: 5,
+      quality: 5,
+      value: 5,
+      delivery: 5,
+      service: 5,
+    },
+    {
+      review: " Good to keep my book worm interested",
+      id: 2,
+      reviewer: "Jhon Doe",
+      date: "18 Apr 2020",
+      star: 5,
+      quality: 5,
+      value: 5,
+      delivery: 5,
+      service: 5,
+    },
+  ],
   }
 }
